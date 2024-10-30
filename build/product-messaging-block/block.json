@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "clearpay-gateway-for-woocommerce/product-messaging",
+  "title": "Clearpay Product Messaging",
+  "category": "widgets",
+  "description": "Adds a Clearpay placement to the product template",
+  "keywords": [
+    "clearpay",
+    "messaging",
+    "placement"
+  ],
+  "version": "1",
+  "textdomain": "clearpay-gateway-for-woocommerce",
+  "usesContext": [
+    "query",
+    "queryId",
+    "postId"
+  ],
+  "supports": {
+    "align": [
+      "left",
+      "center",
+      "right"
+    ]
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [
+    "square_marketplace_js"
+  ]
+}

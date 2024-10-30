@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "clearpay-gateway-for-woocommerce/cart-messaging",
+  "title": "Clearpay Cart Messaging",
+  "category": "widgets",
+  "description": "Adds a Clearpay placement to the cart block",
+  "keywords": [
+    "clearpay",
+    "messaging",
+    "placement"
+  ],
+  "version": "1",
+  "textdomain": "clearpay-gateway-for-woocommerce",
+  "parent": [
+    "woocommerce/cart-totals-block"
+  ],
+  "viewScript": [
+    "square_marketplace_js",
+    "clearpay_cart_messaging"
+  ],
+  "editorScript": "file:./editor.js"
+}
